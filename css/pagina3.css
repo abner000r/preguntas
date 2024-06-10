@@ -1,0 +1,68 @@
+body {
+    --s: 171px; /* control the size*/
+    --c1: #000000;
+    --c2: #6e6e6e;
+    
+    --c: #0000 75%,var(--c1) 0;
+    --g1: conic-gradient(at 75% 25%,var(--c));
+    --g2: conic-gradient(at 25% 75%,var(--c));
+    background: 
+      var(--g1),var(--g1) var(--s) var(--s),
+      var(--g2),var(--g2) var(--s) var(--s) var(--c2);
+    background-size: calc(2*var(--s)) calc(2*var(--s));
+  }
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 19%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+h1{
+  color: white;
+}
+label{
+  color: white;
+}
+input{
+  border-radius: 5px;
+}
+.result{
+  color: white;
+  text-align: center;
+}
+.centro{
+  display: flex;
+  justify-content: space-around;
+}
+.centro2{
+  display: flex;
+  justify-content: space-around;
+}
