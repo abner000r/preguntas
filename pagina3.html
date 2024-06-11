@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,42 @@
     <link rel="stylesheet" href="css/pagina3.css">
     <script src="js/pagina3.js"></script>
 </head>
+
 <body>
-    <div class="container">
-        <h1>Invertir Texto</h1>
-        <input type="text" id="textoInput" placeholder="Ingrese texto aquí">
-        <button onclick="invertirTexto()">Invertir Texto</button>
-        <p id="resultadoTexto"></p>
+    <div class="centro">
+        <div class="container">
+            <h1>Invertir Texto</h1>
+            <input type="text" id="textoInput" placeholder="Ingrese texto aquí">
+            <button onclick="invertirTexto()">Invertir Texto</button>
+            <p id="resultadoTexto"></p>
+        </div>
+        <div class="container">
+            <h1>Calcular Factorial</h1>
+            <input type="number" id="numeroInput" placeholder="Ingrese un número" min="0">
+            <button onclick="calcularFactorial()">Calcular Factorial</button>
+            <p id="resultadoFactorial"></p>
+        </div>
+        <div class="container">
+            <h1>Verificar Número Perfecto</h1>
+            <input type="number" id="numeroInput1" placeholder="Ingrese un número" min="1">
+            <button onclick="verificarPerfecto()">Verificar</button>
+            <p id="resultadoPerfecto"></p>
+        </div>
+    </div>
+    <div class="centro2">
+        <div class="container">
+            <h1>Contar Vocales</h1>
+            <input type="text" id="textoInput2" placeholder="Ingrese un texto">
+            <button onclick="contarVocales()">Contar Vocales</button>
+            <p id="resultadoVocales1"></p>
+        </div>
+        <div class="container">
+            <h1>Verificar Número Primo</h1>
+            <input type="number" id="numeroInput2" placeholder="Ingrese un número" min="1">
+            <button onclick="verificarPrimo()">Verificar</button>
+            <p id="resultadoPrimo"></p>
+        </div>
     </div>
 </body>
+
 </html>

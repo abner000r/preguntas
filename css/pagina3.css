@@ -11,56 +11,55 @@ body {
       var(--g2),var(--g2) var(--s) var(--s) var(--c2);
     background-size: calc(2*var(--s)) calc(2*var(--s));
   }
-  .container {
-    text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+
+
 
 input {
     padding: 10px;
     margin: 10px 0;
-    width: 19%;
+    width: 92%;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
-button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
+.centro{
+  display: flex;
+  justify-content: space-between;
 }
-
-button:hover {
-    background-color: #0056b3;
-}
-
-p {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #333;
+p{
+  color: white;
+  text-align: center;
 }
 h1{
   color: white;
 }
-label{
-  color: white;
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #907ff1;
+  border-radius: 4px;
+  height: 300px;
+  margin: 2%;
 }
-input{
+input[type="number"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1e7432;
+  color: rgb(238, 231, 231);
+  border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
-.result{
-  color: white;
-  text-align: center;
+button:hover {
+  background-color: #6b8571;
 }
-.centro{
-  display: flex;
-  justify-content: space-around;
+.result {
+  margin-top: 10px;
 }
 .centro2{
   display: flex;
